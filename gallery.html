@@ -12,17 +12,10 @@
         .logo { font-family: 'Syncopate', sans-serif; font-weight: 700; font-size: 1.2rem; letter-spacing: 2px; text-decoration: none; color: var(--text); }
         .nav-links a { color: var(--text); text-decoration: none; margin-left: 30px; font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
         .nav-links a:hover, .nav-links a.active { color: var(--primary); }
-        
         .page-title { text-align: center; font-family: 'Syncopate', sans-serif; font-size: 3rem; text-transform: uppercase; margin: 40px 0; }
-        
-        .gallery-container { padding: 0 5% 100px 5%; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); grid-auto-rows: 300px; gap: 15px; grid-auto-flow: dense; }
-        .gallery-item { width: 100%; height: 100%; overflow: hidden; position: relative; border-radius: 4px; background: #111; }
-        .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
-        .gallery-item:hover img { transform: scale(1.05); }
-        
-        .wide { grid-column: span 2; }
-        .tall { grid-row: span 2; }
-        @media(max-width: 700px) { .wide, .tall { grid-column: span 1; grid-row: span 1; } }
+        .gallery-container { padding: 0 5% 100px 5%; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; }
+        .gallery-item { width: 100%; height: 300px; overflow: hidden; border-radius: 4px; background: #1a1a1a; }
+        .gallery-item img { width: 100%; height: 100%; object-fit: cover; }
     </style>
 </head>
 <body>
@@ -34,28 +27,26 @@
             <a href="contact.html">Contact</a>
         </div>
     </nav>
-
     <h1 class="page-title">Portfolio</h1>
-
-<div class="gallery-container">
-    <div class="gallery-item wide"><img src="GPTempDownload%2028.jpg" alt="Racing"></div>
-    <div class="gallery-item"><img src="GPTempDownload%204.jpg" alt="Karting"></div>
-    <div class="gallery-item tall"><img src="GPTempDownload%209.jpg" alt="Focus"></div>
-    <div class="gallery-item"><img src="GPTempDownload%206.jpg" alt="Track"></div>
-    <div class="gallery-item"><img src="GPTempDownload%2013.jpg" alt="Action"></div>
-    <div class="gallery-item wide"><img src="GPTempDownload%2060.jpg" alt="Paddock"></div>
-    <div class="gallery-item tall"><img src="GPTempDownload%2071.jpg" alt="Speed"></div>
-    <div class="gallery-item"><img src="GPTempDownload%2019.jpg" alt="Drive"></div>
-    <div class="gallery-item"><img src="GPTempDownload%2038.jpg" alt="Helmet"></div>
-    <div class="gallery-item wide"><img src="GPTempDownload%2066.jpg" alt="Team"></div>
-    <div class="gallery-item"><img src="GPTempDownload%20(1)%202.jpg" alt="Trophy"></div>
-    <div class="gallery-item"><img src="GPTempDownload%2012.jpg" alt="Technique"></div>
-    <div class="gallery-item tall"><img src="GPTempDownload%2025.jpg" alt="Cornering"></div>
-    <div class="gallery-item"><img src="GPTempDownload%2052.jpg" alt="Profile"></div>
-    <div class="gallery-item"><img src="GPTempDownload%2062.jpg" alt="Mechanics"></div>
-    <div class="gallery-item"><img src="GPTempDownload.jpg" alt="Athlete"></div>
-    <div class="gallery-item wide"><img src="IMG_4190.jpeg" alt="Race Day"></div>
-    <div class="gallery-item"><img src="IMG_4191.jpeg" alt="Finish Line"></div>
-</div>
+    <div class="gallery-container">
+        <div class="gallery-item"><img src="GPTempDownload%2028.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%204.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%209.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%206.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%2013.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%2060.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%2071.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%2019.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%2038.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%2066.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%20(1)%202.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%2012.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%2025.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%2052.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload%2062.jpg"></div>
+        <div class="gallery-item"><img src="GPTempDownload.jpg"></div>
+        <div class="gallery-item"><img src="IMG_4190.jpeg"></div>
+        <div class="gallery-item"><img src="IMG_4191.jpeg"></div>
+    </div>
 </body>
 </html>
