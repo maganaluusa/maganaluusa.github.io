@@ -1,58 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Magana Luusa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        :root { --bg: #0a0a0a; --surface: #141414; --primary: #e62b1e; --text: #ffffff; --text-dim: #a0a0a0; }
-        body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); display: flex; flex-direction: column; min-height: 100vh; }
-        nav { display: flex; justify-content: space-between; align-items: center; padding: 30px 5%; width: 100%; box-sizing: border-box; }
-        .logo { font-family: 'Syncopate', sans-serif; font-weight: 700; font-size: 1.2rem; letter-spacing: 2px; text-decoration: none; color: var(--text); }
-        .nav-links a { color: var(--text); text-decoration: none; margin-left: 30px; font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
-        .nav-links a:hover, .nav-links a.active { color: var(--primary); }
-        
-        .contact-container { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 0 5% 100px 5%; text-align: center; }
-        .contact-container h1 { font-family: 'Syncopate', sans-serif; font-size: clamp(2.5rem, 5vw, 4rem); text-transform: uppercase; margin-bottom: 20px; }
-        .contact-container p { color: var(--text-dim); font-size: 1.2rem; max-width: 600px; margin-bottom: 50px; }
-        
-        .contact-grid { display: flex; gap: 40px; flex-wrap: wrap; justify-content: center; }
-        .contact-item { background: var(--surface); padding: 40px 60px; border-radius: 8px; border: 1px solid #222; transition: border-color 0.3s; }
-        .contact-item:hover { border-color: var(--primary); }
-        .contact-item h3 { font-family: 'Syncopate', sans-serif; color: var(--primary); margin-top: 0; font-size: 1rem; letter-spacing: 2px; }
-        .contact-item a, .contact-item span { color: white; text-decoration: none; font-size: 1.3rem; font-weight: 600; }
-        .contact-item a:hover { text-decoration: underline; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Magana Luusa</title>
+  <meta name="description" content="Contact Magana Luusa for sponsorship, media, and partnership enquiries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="logo">Magana Luusa</a>
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact.html" class="active">Contact</a>
-        </div>
+  <header class="site-header">
+    <nav class="nav-inner" aria-label="Primary">
+      <a class="brand" href="index.html">Magana <span>Luusa</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="path.html">Path to F1</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="sponsorship.html">Sponsorship</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li><a class="nav-cta" href="mailto:maganaluusa@gmail.com">Email me</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <div class="contact-container">
-        <h1>Let's Work <br>Together</h1>
-        <p>For sponsorship inquiries, media requests, or to discuss partnership opportunities, please reach out via the channels below.</p>
-        
-        <div class="contact-grid">
-            <div class="contact-item">
-                <h3>Email</h3>
-                <a href="mailto:maganaluusa@gmail.com">maganaluusa@gmail.com</a>
-            </div>
-            <div class="contact-item">
-                <h3>Phone</h3>
-                <span>+254 706 717 179</span>
-            </div>
-            <div class="contact-item">
-                <h3>Instagram</h3>
-                <a href="https://instagram.com/maganaluusa" target="_blank">@maganaluusa</a>
-            </div>
-        </div>
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="accent-line"></div>
+      <h1>Contact</h1>
+      <p class="lead">Sponsorship, media, and partnership enquiries — I will respond as quickly as race weekends allow.</p>
     </div>
+  </div>
+
+  <main>
+    <section class="section">
+      <div class="wrap" style="display: grid; gap: 2.5rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); align-items: start;">
+        <div class="contact-card">
+          <h2 style="margin-top: 0;">Direct</h2>
+          <p style="margin-bottom: 0.5rem;"><strong>Email</strong></p>
+          <p style="margin-top: 0;"><a href="mailto:maganaluusa@gmail.com">maganaluusa@gmail.com</a></p>
+          <p style="margin-bottom: 0.5rem; margin-top: 1.25rem;"><strong>Phone / WhatsApp</strong></p>
+          <p style="margin-top: 0;"><a href="tel:+254706717179">+254 706 717 179</a></p>
+          <p style="margin-bottom: 0.5rem; margin-top: 1.25rem;"><strong>Instagram</strong></p>
+          <p style="margin-top: 0;"><a href="https://instagram.com/maganaluusa" target="_blank" rel="noopener noreferrer">instagram.com/maganaluusa</a></p>
+          <p style="margin-bottom: 0.5rem; margin-top: 1.25rem;"><strong>Website</strong></p>
+          <p style="margin-top: 0;"><a href="https://maganaluusa.github.io/">maganaluusa.github.io</a></p>
+          <p style="margin-top: 1.75rem; display: flex; flex-wrap: wrap; gap: 0.75rem;">
+            <a class="btn btn-primary" href="mailto:maganaluusa@gmail.com?subject=Sponsorship%20enquiry%20%E2%80%94%20Magana%20Luusa">Send an email</a>
+            <a class="btn btn-ghost" href="Magana%20Luusa%20Racing%20CV%20.pdf" target="_blank" rel="noopener noreferrer">Racing CV (PDF)</a>
+          </p>
+        </div>
+        <div class="split-visual" style="max-height: none; aspect-ratio: 4/5;">
+          <img src="GPTempDownload 66.jpg" alt="Magana Luusa portrait at the circuit" width="800" height="1000" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section surface-section">
+      <div class="wrap">
+        <h2>What to include</h2>
+        <p class="lead">If you are a brand or investor, a short note with your company name, region, and rough budget band helps me come back with the right deck and calendar. Serious enquiries receive a detailed partnership outline and asset list.</p>
+        <p><a class="btn btn-ghost" href="sponsorship.html">Back to sponsorship</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h4>Email</h4>
+        <p><a href="mailto:maganaluusa@gmail.com">maganaluusa@gmail.com</a></p>
+      </div>
+      <div>
+        <h4>Phone / WhatsApp</h4>
+        <p><a href="tel:+254706717179">+254 706 717 179</a></p>
+      </div>
+      <div>
+        <h4>Instagram</h4>
+        <p><a href="https://instagram.com/maganaluusa" target="_blank" rel="noopener noreferrer">@maganaluusa</a></p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <p><a href="https://maganaluusa.github.io/">maganaluusa.github.io</a></p>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>&copy; 2026 Magana Luusa</span>
+      <span>Nairobi · United Kingdom</span>
+    </div>
+  </footer>
 </body>
 </html>
