@@ -1,3 +1,4 @@
+/* Magana Luusa — GitHub Pages */
 :root {
   --orange: #ff6b00;
   --orange-dim: #cc5500;
@@ -288,6 +289,14 @@ h3 {
 .btn-ghost:hover {
   border-color: var(--orange);
   color: var(--orange);
+}
+
+/* Adjacent CTA links (e.g. email + phone) */
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
 }
 
 /* ——— Cards & grids ——— */
