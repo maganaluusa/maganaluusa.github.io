@@ -1,52 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery | Magana Luusa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        :root { --bg: #0a0a0a; --primary: #e62b1e; --text: #ffffff; }
-        body { margin: 0; font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); padding-top: 100px; }
-        nav { display: flex; justify-content: space-between; align-items: center; padding: 30px 5%; position: fixed; width: 100%; top: 0; z-index: 100; box-sizing: border-box; background: rgba(10, 10, 10, 0.9); backdrop-filter: blur(10px); }
-        .logo { font-family: 'Syncopate', sans-serif; font-weight: 700; font-size: 1.2rem; letter-spacing: 2px; text-decoration: none; color: var(--text); }
-        .nav-links a { color: var(--text); text-decoration: none; margin-left: 30px; font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; transition: color 0.3s; }
-        .nav-links a:hover, .nav-links a.active { color: var(--primary); }
-        .page-title { text-align: center; font-family: 'Syncopate', sans-serif; font-size: 3rem; text-transform: uppercase; margin: 40px 0; }
-        .gallery-container { padding: 0 5% 100px 5%; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; }
-        .gallery-item { width: 100%; height: 300px; overflow: hidden; border-radius: 4px; background: #1a1a1a; }
-        .gallery-item img { width: 100%; height: 100%; object-fit: cover; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Magana Luusa</title>
+  <meta name="description" content="Photo gallery — Magana Luusa racing in Champions of the Future, karting, and paddock.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html" class="logo">Magana Luusa</a>
-        <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="gallery.html" class="active">Gallery</a>
-            <a href="contact.html">Contact</a>
-        </div>
+  <header class="site-header">
+    <nav class="nav-inner" aria-label="Primary">
+      <a class="brand" href="index.html">Magana <span>Luusa</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="path.html">Path to F1</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="sponsorship.html">Sponsorship</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="nav-cta" href="sponsorship.html">Partner with me</a></li>
+      </ul>
     </nav>
-    <h1 class="page-title">Portfolio</h1>
-    <div class="gallery-container">
-        <div class="gallery-item"><img src="GPTempDownload 28.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload 4.jpg"></div>
-        <div class="gallery-item"><img src="GPTempDownload 9.jpg"></div>
-        <div class="gallery-item"><img src="GPTempDownload 6.jpg"></div>
-        <div class="gallery-item"><img src="GPTempDownload 13.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload 60.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload 71.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload 19.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload 38.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload 66.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload (1) 2.jpg"></div>
-        <div class="gallery-item"><img src="GPTempDownload 12.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload 25.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload 52.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload 62.JPG"></div>
-        <div class="gallery-item"><img src="GPTempDownload.jpg"></div>
-        <div class="gallery-item"><img src="IMG_4190.jpeg"></div>
-        <div class="gallery-item"><img src="IMG_4191.jpeg"></div>
+  </header>
+
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="accent-line"></div>
+      <h1>Gallery</h1>
+      <p class="lead">On track, in the paddock, and in the kit — high-resolution assets available for partners and media on request.</p>
     </div>
+  </div>
+
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <div class="gallery-grid">
+          <a href="GPTempDownload 60.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image: night racing hero shot"><img src="GPTempDownload 60.jpg" alt="Magana Luusa racing under dramatic lighting" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 62.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image: kart on track"><img src="GPTempDownload 62.jpg" alt="Racing kart number 240 on circuit" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 71.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image: portrait in kit"><img src="GPTempDownload 71.jpg" alt="Magana Luusa in racing kit" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 25.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image: academy suit"><img src="GPTempDownload 25.jpg" alt="Champions of the Future academy programme suit on track" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload (1) 2.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image: cockpit"><img src="GPTempDownload (1) 2.jpg" alt="Driver in cockpit with helmet and steering wheel" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload (1) 3.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image: green and blue kart"><img src="GPTempDownload (1) 3.jpg" alt="Lime green and blue racing kart on track" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload (2) 2.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image: on track action"><img src="GPTempDownload (2) 2.jpg" alt="Magana Luusa racing kart in corner" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 3.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 3.jpg" alt="Racing action on track" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 4.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 4.jpg" alt="Racing action on track" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 5.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 5.jpg" alt="Racing action on track" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 6.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 6.jpg" alt="Racing preparation" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 7.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 7.jpg" alt="Paddock and racing focus" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 8.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 8.jpg" alt="On track racing" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 12.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 12.jpg" alt="Circuit action" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 18.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 18.jpg" alt="Kart racing on circuit" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 27.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 27.jpg" alt="Racing kart in motion" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 28.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 28.jpg" alt="Racing kart in motion" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 29.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 29.jpg" alt="High speed karting" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 32.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 32.jpg" alt="Race craft on track" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 33.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 33.jpg" alt="On track racing" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 38.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 38.jpg" alt="Pitlane and kart" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 43.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 43.jpg" alt="Racing action" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload 44.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload 44.jpg" alt="Racing action" width="600" height="800" loading="lazy"></a>
+          <a href="GPTempDownload.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="GPTempDownload.jpg" alt="Racing detail" width="600" height="800" loading="lazy"></a>
+          <a href="IMG_4190.jpeg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="IMG_4190.jpeg" alt="Magana Luusa racing" width="600" height="800" loading="lazy"></a>
+          <a href="IMG_4191.jpeg" target="_blank" rel="noopener noreferrer" aria-label="Open full image"><img src="IMG_4191.jpeg" alt="Magana Luusa racing" width="600" height="800" loading="lazy"></a>
+        </div>
+        <p class="lead" style="margin-top: 2rem;">Need print-resolution files or a zipped media kit? Email <a href="mailto:maganaluusa@gmail.com">maganaluusa@gmail.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h4>Email</h4>
+        <p><a href="mailto:maganaluusa@gmail.com">maganaluusa@gmail.com</a></p>
+      </div>
+      <div>
+        <h4>Phone / WhatsApp</h4>
+        <p><a href="tel:+254706717179">+254 706 717 179</a></p>
+      </div>
+      <div>
+        <h4>Instagram</h4>
+        <p><a href="https://instagram.com/maganaluusa" target="_blank" rel="noopener noreferrer">@maganaluusa</a></p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <p><a href="https://maganaluusa.github.io/">maganaluusa.github.io</a></p>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>&copy; 2026 Magana Luusa</span>
+      <span>Nairobi · United Kingdom</span>
+    </div>
+  </footer>
 </body>
 </html>
